@@ -1,0 +1,28 @@
+
+
+.btn-outer {
+    border: 2px solid gray;
+    height: 80px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 38px;
+    width: 98px;
+    background: linear-gradient(to right , rgb(0, 38, 255) , rgb(0, 251, 255) , rgb(120, 133, 250) );
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+
+}
+
+
+.btn:hover {
+    background: linear-gradient(to left , rgb(0, 38, 255) , rgb(0, 251, 255) , rgb(120, 133, 250) );
+}

@@ -1,0 +1,349 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.logo {
+  height: 32px;
+  width: 120px;
+}
+
+.nav-div {
+  display: flex;
+  background-color: gainsboro;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 0);
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+  gap: 28px;
+  list-style-type: none;
+}
+
+.btn-div {
+  display: flex;
+  margin-left: 5px;
+  gap: 10px;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+
+}
+
+ li {
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+
+.template-div {
+  background-color: rgb(186, 186, 186);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.template-div img {
+  height: 450px;
+}
+
+.temp-outer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  justify-content: center;
+  align-items: center;
+  width: 440px;
+  border-radius: 10px;
+}
+
+.sign-btn {
+  background-color: rgb(41, 41, 247);
+  font-size: 15px;
+  color: white;
+  height: 32px;
+  width: 70px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.create-btn {
+  background-color: rgb(41, 41, 247);
+  font-size: 15px;
+  color: white;
+  height: 32px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.temp-outer input {
+  width: 210px;
+  height: 25px;
+  margin-top: 0%; 
+}
+
+.tick {
+  border: 1px solid gray;
+  border-right: none;
+}
+
+.eye {
+  border: 1px solid gray;
+  background-color: white;
+  height: 35px;
+}
+
+.sign-google {
+  width: 290px;
+  background-color: rgb(255, 255, 255);
+  height: 31px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.names {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.names label {
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+}
+
+.names input {
+  height: 24px;
+  width: 100px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.email-div {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-div input {
+  height: 26px;
+  width: 160px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.email-div label {
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pass-div {
+  background-color: rgb(255, 255, 255);
+  margin-top: 0%;
+}
+
+.pass {
+  display: flex;
+  flex-direction: row;
+}
+.pass input {
+  margin-left: 10px;
+}
+
+.con-pass input {
+  margin-left: 10px;
+}
+
+.pass p {
+  margin-top: 0%;
+}
+
+.con-pass p {
+  margin-top: 0%;
+}
+
+.con-pass {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.btnswi-div {
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22px;
+  border: 2px solid purple ;
+  margin-left: 80px;
+  gap: 12px;
+}
+
+.btnswi-div button {
+  background-color: blueviolet;
+  color: white;
+  height: 28px;
+  border-radius: 3px;
+  border: none;
+}
+
+.pass-div span {
+  margin-left: 6px;
+  margin-top: 3px;
+}
+
+
+.sign-google {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.side-img-div {
+  height: 526px;
+  width: 480px;
+  margin-top: 50px;
+  border: 2p solid gray;
+}
+
+.side-img-div img {
+  border-radius: 28px;
+}
+
+.template-div {
+  background-color: rgb(29, 0, 57);
+}
+
+.nav-div {
+  background-color: rgb(15, 0, 30);
+}
+
+.nav-div button {
+  background-color: rebeccapurple;
+  color: white;
+  height: 35px;
+  width: 70px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-div button:hover {
+  color: rebeccapurple;
+  background-color: white;
+  border: 1px solid rebeccapurple;
+}
+
+.btn-div {
+  background-color:  rgb(15, 0, 30);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home {
+  color: white;
+}
+
+.dash {
+  color: white;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+label sup {
+  color: red;
+  font-size: 20px;
+}
+
+
+.btnswi-div button {
+  background-color: white;
+  border: 1px solid rebeccapurple;
+  color: rebeccapurple;
+  cursor: pointer;
+}
+
+.btnswi-div button:hover {
+  background-color: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}

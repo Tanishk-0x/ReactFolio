@@ -1,0 +1,32 @@
+.nav {
+  background-color: #080c1c;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+}
+
+.inner-nav {
+  background-color: #080c1c;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 90px;
+  font-size: 28px;
+  color: white;
+}
+
+.nav img {
+  height: 60px;
+}
+
+.nav {
+  text-decoration: none;
+}
+
+
+/* #080c1c */
+

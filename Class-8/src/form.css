@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center ; 
+}
+
+.App {
+    display: flex;
+    border: 1px solid gray;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    width: 550px;
+    height: 850px;
+    margin-top: 50px;
+}
+
+label , input {
+    margin-left: 8px;
+}
+
+input {
+    width: 470px;
+}
+
+#country {
+    margin-left: 8px;
+}
+
+label {
+    font-size: 12px;
+}
+
+fieldset {
+    border: 1px solid gray;
+}
+
+.fieldset {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+p {
+    font-size: 8px;
+}
+
+checkbox {
+    height: 10px;
+    width: 10px;
+}
+
+/* #pushEverything , #pushNothing , #pushEmail {
+    margin-top: 2px;
+} */
+
+.radio {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.f1 {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    margin-left: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    margin-top: 10px;
+}
+
+button {
+    background-color: rgb(183, 183, 183);
+    height: 33px;
+    width: 80px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+
+button:hover {
+    border: 1px solid gray;
+}

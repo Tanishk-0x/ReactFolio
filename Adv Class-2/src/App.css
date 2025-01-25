@@ -1,0 +1,164 @@
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: rgb(31, 0, 64);
+  flex-direction: column;
+}
+
+header {
+  height: 55px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  background-color: rgb(22, 0, 45);
+  border: 2px solid gainsboro;
+  color: white;
+  font: bold;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid rgb(255, 255, 255);
+  width: 1100px;
+  margin-top: 10px;
+  background-color: rgb(69, 0, 139);
+  border-radius: 12px;
+}
+
+.card p {
+  margin-left: 10px;
+}
+
+.title {
+  font: bold ; 
+  font-size: 24px;
+  color: blue;
+  color: white;
+}
+
+.tags {
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+span {
+  color: rgb(0, 0, 0);
+}
+
+.page-bottom {
+  border: 2px solid gray;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(219, 219, 219);
+  gap: 30px;
+  flex-direction: row;
+  background-color: rgb(22, 0, 45);
+  color: white;
+  margin-bottom: 0%;
+  margin-top: 8px;
+}
+
+.page-bottom button {
+  background-color: blue;
+  color: white;
+  height: 32px;
+  width: 78px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 14px;
+}
+
+.page-bottom button:hover {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.span {
+  color: rgb(242, 255, 0);
+  margin-left: 14px;
+}
+
+.content {
+  color: whitesmoke;
+}
+
+p{
+  color: white;
+}
+
+
+span {
+  color: rgb(80, 80, 255);
+}
+
+.span {
+  cursor: pointer;
+}
+
+.span:hover {
+  color: orangered;
+}
+
+.blogs-div {
+  border: 1px solid white;
+  height: 550px;
+  width: 1200px;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+}
+
+.blogs-div::-webkit-scrollbar {
+  display: none;
+}
+
+.page-bottom {
+  margin-bottom: 5px;
+}
+
+.sec-div {
+  border: 1px solid white;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  margin-top: 5px;
+  flex-direction: row;
+  background-color: rgb(16, 0, 33);
+  color: white;
+  gap: 30px;
+}
+
+.sec-div button {
+  height: 34px;
+  width: 89px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 14px;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  transition: 0.5s;
+  border-radius: 6px;
+}
+
+.sec-div button:hover {
+  background-color: white;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+}

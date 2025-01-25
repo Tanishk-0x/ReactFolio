@@ -1,0 +1,9 @@
+
+
+.mfg-date {
+    font-size: 30px;
+    text-align: center;
+    gap: 8px;
+    color: rgb(255, 238, 0);
+    background-color: gray;
+}

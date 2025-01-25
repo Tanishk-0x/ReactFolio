@@ -1,0 +1,21 @@
+
+
+.Nirma {
+    background-color: pink;
+    color: blue;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.List {
+    background-color: orangered;
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    align-items: center;
+    height: 70px;
+    color: blueviolet;
+    list-style: none;
+    color: white;
+}

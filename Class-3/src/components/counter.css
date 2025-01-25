@@ -1,0 +1,92 @@
+
+body {
+    background-color:  rgb(37, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .inner-div {
+    background-color: aquamarine;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: rgb(44, 47, 58);
+    margin-top: 4px;
+    border: 1px solid gray;
+  
+  }
+  
+  .outer-div {
+    background-color: rgb(37, 37, 37);
+    width: 240px;
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(44, 47, 58);
+    border: 2px solid whitesmoke;
+  }
+  
+  .screen {
+    /* border: 1px solid white; */
+    color: white;
+    height: 60px;
+    width: 80px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: gray;
+    /* border: 2px solid white; */
+    height: 60px;
+    font-size: 30px;
+    width: 68px;
+    cursor: pointer;
+    background-color: rgb(44, 47, 58);
+    color: white;
+  }
+  
+  .reset-btn {
+    background-color: #282c34;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 38px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid white;
+  }
+  
+  button:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  .inc-btn {
+    border-left: 3px solid white;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .dec-btn {
+    border-right: 3px solid white;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+  }

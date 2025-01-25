@@ -1,0 +1,175 @@
+
+body {
+    background-color: rgb(164, 164, 164);
+}
+
+.outer-app {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 133, 245);
+}
+
+.inner-app {
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.heading {
+    font-size: 28px;
+    font: bold;
+}
+
+.underline {
+    height: 4px;
+    width: 100px;
+    background-color: rgb(144, 0, 255);
+    margin-bottom: 5px;
+}
+
+.outer-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 240px;
+    border: 1px solid gray;
+    border-bottom: none;
+
+}
+
+.image {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    z-index: 25;
+}
+
+.img-div {
+    position: absolute;
+    top: -7rem;
+    z-index: 10;
+    margin: auto;
+}
+
+.back {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: rgb(149, 0, 255);
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    z-index: -10 ;
+}
+
+.name {
+    text-align: center;
+    margin-top: 7px;
+    font: bold;
+    font-size: 24px;
+}
+
+.job {
+    color:  rgb(144, 0, 255);
+    font-size: 15px;
+    font: bold;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.jobing {
+    color:  rgb(144, 0, 255);
+}
+
+.left , .right {
+    color:  rgb(144, 0, 255);
+}
+
+.text {
+    color: rgb(138, 138, 138);
+    opacity: 90;
+    margin-top: 4;
+}
+
+.arrow button {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.random button {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.arrow , .random {
+    background-color: rgb(255, 255, 255);
+}
+
+.random button {
+    margin-bottom: 10px;
+}
+
+.random button {
+    background: linear-gradient(to right , rgb(119, 0, 255) , rgb(170, 87, 230) , rgb(191, 159, 212));
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+.random button:hover {
+    background: linear-gradient(to left , rgb(119, 0, 255) , rgb(170, 87, 230) , rgb(191, 159, 212));
+    border: 1px solid white;
+}
+
+.arrow {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+.arrow button {
+    height: 38px;
+    width: 38px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none; 
+    background-color: rgb(132, 0, 255);
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.arrow button:hover {
+    height: 41px;
+    width: 41px;
+    background-color:  rgb(145, 31, 252);
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.random {
+    border: 1px solid gray;
+    border-top: none;
+}
+
+.arrow {
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
