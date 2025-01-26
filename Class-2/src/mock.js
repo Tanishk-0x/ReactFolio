@@ -3,9 +3,7 @@ import axios from "axios";
 
 const MockInterview = () => {
 
-    const API_KEY = "AIzaSyCvqHy81ejWHkY3qEy6Wlip4ktDEBfhHuo" ; 
-
-    let url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' + API_KEY
+    let url = "PASTE_API_URL_HERE" + "PASTE_YOUR_API_KEY_HERE" ; 
 
 
   const [formData, setFormData] = useState({
